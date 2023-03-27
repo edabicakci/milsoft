@@ -1,0 +1,51 @@
+class Outer{
+    class Inner{
+
+    }
+}
+
+Outer outer = new Outer();
+Outer.Inner inner = outer.new Inner();
+-------
+static Inner Class 
+
+
+
+class Outer{
+    static class Inner{
+
+    }
+}
+
+Outer outer = new Outer();
+Outer.Inner inner = new Outer.Inner();
+
+-------
+
+Anonymous Inner Class
+
+Lambda Expression
+
+
+
+wr,ter reader --> karakterle çlaışır 
+
+input output --> byte : encoding
+
+buffer flush 
+
+
+
+Files var okuma için ama network içiç olmaz.
+
+
+
+26 march 2023
+
+cookie vs session 
+
+local storage and sessionstorage
+
+redis : distributed 
+
+
