@@ -4,7 +4,8 @@
 /react/01-basics/node_modules
 /.pnp
 .pnp.js
-/bin
+/first/bin
+/first/.vscode
 /eclipse-workspace/.metadata
 /eclipse-workspace/Servers
 
