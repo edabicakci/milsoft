@@ -4,12 +4,11 @@ public class MyInnerTest {
     public static void main(String[] args) {
         Runnable runnable = new Runnable() {
 
-public void run(){
+            public void run() {
 
-    work();
-}
-       
-            
+                work();
+            }
+
         };
 
         Thread thread = new Thread(runnable);
@@ -17,16 +16,15 @@ public void run(){
 
         execute();
 
-
     }
-       
-        private static void execute(){
-        while(true){
+
+    private static void execute() {
+        while (true) {
 
             try {
                 System.out.println("Sürüyor...");
                 Thread.sleep(500);
-                
+
             } catch (InterruptedException e) {
                 // TODO: handle exception
 
@@ -34,19 +32,16 @@ public void run(){
             }
         }
 
-    
+    }
 
-}
+    private static void work() {
 
-
-    private static void work(){
-
-        while(true){
+        while (true) {
 
             try {
                 System.out.println("Koşuyor...");
                 Thread.sleep(750);
-                
+
             } catch (InterruptedException e) {
                 // TODO: handle exception
 
@@ -54,6 +49,5 @@ public void run(){
             }
         }
     }
-    
-    
+
 }

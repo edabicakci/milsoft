@@ -1,14 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     
-<%
-int left= Integer.parseInt(request.getParameter("left"));
-int right= Integer.parseInt(request.getParameter("right"));
-
-int  sum= left + right;
-
-
-%>   
+    <% 
+    session.setAttribute("username", null);
+    response.sendRedirect("Login.jsp");
+    
+    %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,6 +13,6 @@ int  sum= left + right;
 <title>Insert title here</title>
 </head>
 <body>
- toplam: <%=sum%>
+
 </body>
 </html>

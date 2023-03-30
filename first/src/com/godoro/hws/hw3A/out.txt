@@ -1,0 +1,2 @@
+301;Cep Telefonu;2345.0 
+302;Cep krf;234.0 

@@ -6,7 +6,7 @@
     
     if(request.getCookies() != null){
     for (Cookie cookie: request.getCookies()){
-    	if(cookie.getName().equals("compnay")){
+    	if(cookie.getName().equals("company")){
     		company= cookie.getValue();
     		break;
     	}

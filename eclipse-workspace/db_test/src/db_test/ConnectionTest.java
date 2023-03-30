@@ -14,6 +14,8 @@ public class ConnectionTest {
 		
 		Connection connection = DriverManager.getConnection(url,user,password);
 		System.out.println(connection.getMetaData().getDatabaseProductName());
+		System.out.println("Hello");
+		
 		connection.close();
 		
 		

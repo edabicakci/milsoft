@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 
 public class WriteTest {
-public static void main(String[] args) throws Exception{
+	public static void main(String[] args) throws Exception {
 		
 		String url = "jdbc:mysql://localhost/new_schema";
 		String user = "root";
